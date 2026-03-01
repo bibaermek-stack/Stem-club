@@ -1,0 +1,367 @@
+﻿:root {
+  --primary-color: #007bff;
+  --primary-hover: #0056b3;
+  --secondary-color: #f8f9fa;
+  --dark-color: #212529;
+  --text-color: #495057;
+  --light-gray: #e9ecef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1,
+h2 {
+  color: var(--dark-color);
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--dark-color);
+}
+
+section {
+  padding: 60px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-2px);
+}
+
+.btn-nav {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-nav:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 56px;
+  width: auto;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.hero {
+  min-height: 88vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)),
+    url("stem_club.png") center center / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.directions-section {
+  background-color: var(--secondary-color);
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.join-section {
+  background-color: var(--dark-color);
+  color: #fff;
+  text-align: center;
+}
+
+.join-section h2,
+.join-section p {
+  color: #fff;
+}
+
+.contact-details {
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}
+
+.contact-details a,
+.socials a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-details a:hover,
+.socials a:hover {
+  text-decoration: underline;
+}
+
+.socials {
+  margin-top: 20px;
+}
+
+.registration-section {
+  background-color: var(--secondary-color);
+}
+
+.registration-form {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--dark-color);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.35);
+}
+
+.btn-submit {
+  width: 100%;
+  font-size: 1.05rem;
+  padding: 14px;
+}
+
+.detail-section {
+  position: relative;
+  padding: 90px 0;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.95)),
+    url("https://i.pinimg.com/originals/0e/fc/c0/0efcc0ca1d62e67a5dbb6af52041bcad.png") center / cover no-repeat;
+}
+
+.detail-content {
+  max-width: 860px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 36px;
+  border-radius: 14px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+.detail-content h1 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.detail-content p,
+.detail-content ul {
+  font-size: 1.08rem;
+  margin-bottom: 20px;
+}
+
+.detail-content ul {
+  padding-left: 22px;
+}
+
+.detail-content img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #1a1e21;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 5px 0;
+  font-size: 0.92rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header ul {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero {
+    min-height: 78vh;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .registration-form {
+    padding: 24px;
+  }
+
+  .detail-content {
+    padding: 24px;
+  }
+
+  .detail-content h1 {
+    font-size: 2rem;
+  }
+}

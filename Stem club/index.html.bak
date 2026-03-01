@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STEM AYU Club - Khoja Akhmet Yassawi University</title>
+<meta name="description" content="STEM AYU Club: робототехника, web-бағдарламалау, ғылыми зерттеу және хакатон бағыттары бойынша студенттер клубы.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="STEM AYU Club">
+<meta property="og:description" content="Робототехника, web-даму, ғылыми зерттеу және хакатон бағыттары бар STEM студенттер клубы.">
+<meta property="og:image" content="stem_club.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav class="container">
+<a href="#home" class="logo">
+<img src="stem_club.png" alt="STEM AYU Club Logo">
+</a>
+<ul>
+<li><a href="#directions">Бағыттар</a></li>
+<li><a href="#registration" class="btn btn-nav">Бізге қосыл!</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="hero-content container">
+<h1>Инновациялар әлеміне қош келдің!</h1>
+<p>Қожа Ахмет Ясауи атындағы ХҚТУ-дың STEM AYU клубында өз болашағыңды бүгіннен баста.</p>
+<a href="#registration" class="btn btn-primary">Клубқа мүше болу</a>
+</div>
+</section>
+
+<section id="directions" class="directions-section">
+<div class="container">
+<h2>Клуб бағыттары</h2>
+<div class="cards-container">
+<a href="robotics.html" class="card-link">
+<div class="card">
+<div class="card-icon">🤖</div>
+<h3>Робототехника және AI</h3>
+<p>Роботтарды құрастыру, оларды бағдарламалау және жасанды интеллект технологияларын зерттеу.</p>
+</div>
+</a>
+<a href="web.html" class="card-link">
+<div class="card">
+<div class="card-icon">💻</div>
+<h3>Бағдарламалау және Web</h3>
+<p>Мобильді қосымшалар, веб-сайттар жасау және алгоритмдік есептерді шешу.</p>
+</div>
+</a>
+<a href="research.html" class="card-link">
+<div class="card">
+<div class="card-icon">🔬</div>
+<h3>Ғылыми зерттеулер</h3>
+<p>Инженерия, физика және химия салаларында ғылыми жобалармен айналысып, конференцияларға қатысу.</p>
+</div>
+</a>
+<a href="hackathon.html" class="card-link">
+<div class="card">
+<div class="card-icon">🏆</div>
+<h3>Хакатондар мен жарыстар</h3>
+<p>Республикалық және халықаралық деңгейдегі STEM жарыстарына команда болып дайындалу.</p>
+</div>
+</a>
+</div>
+</div>
+</section>
+
+<section id="join" class="join-section">
+<div class="container">
+<h2>Сұрақтарың бар ма?</h2>
+<p>Бізбен хабарласып, толық ақпарат ал немесе төмендегі форманы толтырып, бірден тіркел.</p>
+<div class="contact-details">
+<p>📧 Email: <a href="mailto:stemayuclub@gmail.com">stemayuclub@gmail.com</a></p>
+<p>📞 Телефон: <a href="tel:+77078611213">+7 707 861 12 13</a></p>
+</div>
+<div class="socials">
+<p>Бізді әлеуметтік желілерде бақыла:</p>
+<a href="https://www.instagram.com/stem_ayu/" target="_blank" rel="noopener noreferrer">Instagram</a>
+•
+<a href="https://t.me/stemayuclub" target="_blank" rel="noopener noreferrer">Telegram</a>
+</div>
+</div>
+</section>
+
+<section id="registration" class="registration-section">
+<div class="container">
+<h2>Клубқа тіркелу анкетасы</h2>
+<form class="registration-form" action="https://formspree.io/f/mblzyygo" method="POST">
+<div class="form-group">
+<label for="name">Аты-жөніңіз</label>
+<input type="text" id="name" name="name" placeholder="Мысалы: Серіков Азамат" required>
+</div>
+<div class="form-group">
+<label for="specialty">Мамандығыңыз</label>
+<input type="text" id="specialty" name="specialty" placeholder="Мысалы: Компьютерлік инженерия" required>
+</div>
+<div class="form-group">
+<label for="course">Оқу курсы</label>
+<input type="number" id="course" name="course" placeholder="Мысалы: 2" min="1" max="5" required>
+</div>
+<div class="form-group">
+<label for="email">Email поштаңыз</label>
+<input type="email" id="email" name="email" placeholder="Sizdin.pochta@example.com" required>
+</div>
+<div class="form-group">
+<label for="phone">Телефон нөміріңіз</label>
+<input type="tel" id="phone" name="phone" placeholder="+7 (7XX) XXX-XX-XX" required>
+</div>
+<div class="form-group">
+<label for="reason">Неліктен біздің клубқа қосылғыңыз келеді?</label>
+<textarea id="reason" name="reason" rows="4" placeholder="Қысқаша өз ойыңызды жазыңыз..."></textarea>
+</div>
+<button type="submit" class="btn btn-primary btn-submit">Анкетаны жіберу</button>
+</form>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container">
+<p>📧 <a href="mailto:stemayuclub@gmail.com">stemayuclub@gmail.com</a> | 📞 <a href="tel:+77078611213">+7 707 861 12 13</a></p>
+<p>&copy; 2025 STEM AYU Club. Барлық құқықтар қорғалған.</p>
+<p>Қожа Ахмет Ясауи атындағы Халықаралық қазақ-түрік университеті</p>
+</div>
+</footer>
+</body>
+</html>

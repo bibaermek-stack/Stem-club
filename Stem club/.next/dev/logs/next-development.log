@@ -1,0 +1,108 @@
+[00:00:06.427] Server  LOG     ✓ Ready in 5.9s
+[00:00:14.943] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:04.440] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:09.851] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:48.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:20.259] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:36.832] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:51.065] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:20.744] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:24.546] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:28.027] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:30.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:43.097] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:16.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:31.572] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:41.594] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:41.346] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:16.769] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:27.196] Browser ERROR   ./app/page.js
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\MECHREVO\OneDrive\Desktop\сайт прос көру\app\page.js
+    1: stream did not contain valid UTF-8
+
+Import trace for requested module:
+./app/page.js
+[00:52:27.306] Server  ERROR   ⨯ ./app/page.js
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\MECHREVO\OneDrive\Desktop\сайт прос көру\app\page.js
+    1: stream did not contain valid UTF-8
+
+Import trace for requested module:
+./app/page.js
+[00:52:27.332] Browser ERROR   ./app/page.js
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\MECHREVO\OneDrive\Desktop\сайт прос көру\app\page.js
+    1: stream did not contain valid UTF-8
+
+Import trace for requested module:
+./app/page.js
+[00:53:01.072] Server  ERROR   ⨯ ./app/page.js
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\MECHREVO\OneDrive\Desktop\сайт прос көру\app\page.js
+    1: stream did not contain valid UTF-8
+
+Import trace for requested module:
+./app/page.js
+[00:53:02.540] Browser ERROR   ./app/page.js
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\MECHREVO\OneDrive\Desktop\сайт прос көру\app\page.js
+    1: stream did not contain valid UTF-8
+
+Import trace for requested module:
+./app/page.js
+[00:53:08.322] Server  LOG     ○ Compiling /_error ...
+[00:53:08.750] Server  ERROR   ⨯ ./app/page.js
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\MECHREVO\OneDrive\Desktop\сайт прос көру\app\page.js
+    1: stream did not contain valid UTF-8
+
+Import trace for requested module:
+./app/page.js
+[00:53:09.389] Browser ERROR   ./app/page.js
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\MECHREVO\OneDrive\Desktop\сайт прос көру\app\page.js
+    1: stream did not contain valid UTF-8
+
+Import trace for requested module:
+./app/page.js
+[00:53:09.389] Browser ERROR   ./app/page.js
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\MECHREVO\OneDrive\Desktop\сайт прос көру\app\page.js
+    1: stream did not contain valid UTF-8
+
+Import trace for requested module:
+./app/page.js
+[00:54:09.305] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:31.226] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:16.290] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:19.838] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:38.250] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:51.080] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:14:51.081] Browser ERROR   uncaughtError: ReferenceError: videoUrl is not defined
+[01:14:51.263] Server  ERROR   ⨯ ReferenceError: videoUrl is not defined
+[01:14:51.854] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:52.349] Browser ERROR   uncaughtError: ReferenceError: videoUrl is not defined
+[01:15:08.530] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:15:08.712] Server  ERROR   ⨯ ReferenceError: sliderRef is not defined
+[01:15:09.308] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:10.805] Browser ERROR   uncaughtError: ReferenceError: sliderRef is not defined
+[01:15:29.164] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:15:30.235] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:00.324] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

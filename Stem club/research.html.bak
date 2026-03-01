@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ғылыми зерттеулер бағыты - STEM AYU Club</title>
+<meta name="description" content="STEM AYU Club ғылыми зерттеу бағыты: инженерия, экология, физика-химия жобалары және ғылыми жарыстар.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ғылыми зерттеулер бағыты - STEM AYU Club">
+<meta property="og:description" content="STEM саласындағы зерттеу ойлауын дамытып, нақты ғылыми жобалар жасау.">
+<meta property="og:image" content="stem_club.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav class="container">
+<a href="index.html#home" class="logo">
+<img src="stem_club.png" alt="STEM AYU Club Logo">
+</a>
+<ul>
+<li><a href="index.html#directions">Бағыттар</a></li>
+<li><a href="index.html#registration" class="btn btn-nav">Бізге қосыл!</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section class="detail-section">
+<div class="detail-content container">
+<h1>🔬 Ғылыми зерттеулер бағыты</h1>
+<p>Ғылыми зерттеу бағыты STEM AYU Club-тың негізгі бағыттарының бірі. Мұнда студенттер өз идеяларын тәжірибе жүзінде сынап, нақты жобалар әзірлейді. Физика, химия, биология, экология және инженерия салаларында инновациялық шешімдер іздестіріледі.</p>
+<img src="https://avatars.mds.yandex.net/i?id=8ade2c55a1a25a5bb0f3a1cb225f943e_l-7467285-images-thumbs&n=13" alt="Зертханада ғылыми жұмыс жүргізіп жатқан студенттер" loading="lazy">
+<h2>Біздің бағыттың мақсаты:</h2>
+<ul>
+<li>Жас зерттеушілердің ғылыми ойлау қабілетін дамыту.</li>
+<li>STEM саласында зерттеу жобаларын іске асыру.</li>
+<li>3D-модельдеу және инженерлік дизайн негіздерін үйрену.</li>
+<li>Экологиялық шешімдер ұсынуға бағытталған зерттеу жүргізу.</li>
+<li>Республикалық және халықаралық ғылыми жарыстарға қатысу.</li>
+</ul>
+<a href="index.html#directions" class="btn btn-primary">Барлық бағыттарға оралу</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container">
+<p>📧 <a href="mailto:stemayuclub@gmail.com">stemayuclub@gmail.com</a> | 📞 <a href="tel:+77078611213">+7 707 861 12 13</a></p>
+<p>&copy; 2025 STEM AYU Club. Барлық құқықтар қорғалған.</p>
+</div>
+</footer>
+</body>
+</html>
